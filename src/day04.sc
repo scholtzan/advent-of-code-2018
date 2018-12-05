@@ -1,6 +1,6 @@
 import scala.io.Source
 
-val lines = Source.fromFile("/Users/anna/mydata/projects/advent-of-code-2018/src/day04-input.txt").getLines.toSeq
+val lines = Source.fromFile("day04-input.txt").getLines.toSeq
 val cache = scala.collection.mutable.Map[Int, Seq[Int]]()
 
 val guardChangePattern = "\\[.+\\] Guard #([0-9]+) begins shift".r
